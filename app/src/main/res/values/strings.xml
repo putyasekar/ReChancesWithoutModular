@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">Re-Chances</string>
+    <string name="re_chances">Re-Chances</string>
+    <string name="headline">Lorem ipsum dolor sit amet, consectetur adipiscing.</string>
+    <string name="skip">Skip</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome!"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="full_name">Full Name</string>
+    <string name="title_activity_login_tes">LoginTesActivity</string>
+    <string name="text_user_name">Enter your full name here</string>
+    <string name="plants">Plants</string>
+    <string name="decoration">Decoration</string>
+    <string name="fake_palm_leaf_plant">Fake Palm Leaf Plant</string>
+    <string name="rp_35_000">Rp 35.000</string>
+    <string name="lorem_ipsum">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ac tincidunt vitae semper quis.</string>
+    <string name="_1">1</string>
+    <string name="take">Take</string>
+    <string name="_15sp">15sp</string>
+</resources>
