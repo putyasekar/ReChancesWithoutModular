@@ -2,13 +2,13 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/rv_container"
+    android:id="@+id/rv_container_sign_up"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".SignUpActivity">
 
     <ImageView
-        android:id="@+id/group"
+        android:id="@+id/background_motive"
         android:layout_width="match_parent"
         android:layout_height="675dp"
         android:layout_alignParentStart="true"
@@ -83,7 +83,6 @@
 
     </LinearLayout>
 
-
     <TextView
         android:id="@+id/email_title"
         android:layout_width="0dp"
@@ -136,7 +135,6 @@
         </com.google.android.material.textfield.TextInputLayout>
 
     </LinearLayout>
-
 
     <TextView
         android:id="@+id/password_title"
@@ -215,7 +213,6 @@
         <!--                android:textStyle="normal" />-->
         <!--        </com.google.android.material.textfield.TextInputLayout>-->
 
-
     </LinearLayout>
 
     <Button
@@ -229,10 +226,10 @@
         android:layout_gravity="center"
         android:layout_marginStart="22dp"
         android:layout_marginLeft="5dp"
-        android:layout_marginTop="4dp"
+        android:layout_marginTop="31dp"
         android:layout_marginEnd="59dp"
         android:layout_marginRight="5dp"
-        android:layout_marginBottom="125dp"
+        android:layout_marginBottom="96dp"
         android:fontFamily="@font/poppins_semibold"
         android:text="@string/sign_up"
         android:textAllCaps="true"
@@ -246,49 +243,49 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
-        android:layout_marginBottom="75dp"
+        android:layout_marginBottom="34dp"
         android:fontFamily="@font/poppins_regular"
         android:gravity="center"
         android:text="@string/already_have_an_account_sign_in"
         android:textColor="#5B5B5E"
         android:textSize="14sp" />
 
-    <TextView
-        android:id="@+id/sign_up_with"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_below="@id/sign_in_TV"
-        android:layout_gravity="center"
-        android:layout_marginTop="16dp"
-        android:layout_marginBottom="16dp"
-        android:fontFamily="@font/poppins_regular"
-        android:gravity="center"
-        android:text="@string/sign_up_with"
-        android:textAlignment="center"
-        android:textColor="#5B5B5E"
-        android:textSize="18sp" />
+    <!--    <TextView-->
+<!--        android:id="@+id/sign_up_with"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_below="@id/sign_in_TV"-->
+<!--        android:layout_gravity="center"-->
+<!--        android:layout_marginTop="16dp"-->
+<!--        android:layout_marginBottom="16dp"-->
+<!--        android:fontFamily="@font/poppins_regular"-->
+<!--        android:gravity="center"-->
+<!--        android:text="@string/sign_up_with"-->
+<!--        android:textAlignment="center"-->
+<!--        android:textColor="#5B5B5E"-->
+<!--        android:textSize="18sp" />-->
 
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_below="@id/sign_up_with"
-        android:layout_gravity="center"
-        android:layout_marginBottom="20dp"
-        android:gravity="center"
-        android:orientation="horizontal">
+<!--    <LinearLayout-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_below="@id/sign_up_with"-->
+<!--        android:layout_gravity="center"-->
+<!--        android:layout_marginBottom="20dp"-->
+<!--        android:gravity="center"-->
+<!--        android:orientation="horizontal">-->
 
-        <ImageView
-            android:layout_width="35dp"
-            android:layout_height="35dp"
-            android:layout_margin="10dp"
-            android:src="@drawable/facebook" />
+<!--        <ImageView-->
+<!--            android:layout_width="35dp"-->
+<!--            android:layout_height="35dp"-->
+<!--            android:layout_margin="10dp"-->
+<!--            android:src="@drawable/facebook" />-->
 
-        <ImageView
-            android:layout_width="35dp"
-            android:layout_height="35dp"
-            android:layout_margin="10dp"
-            android:src="@drawable/google" />
+<!--        <ImageView-->
+<!--            android:layout_width="35dp"-->
+<!--            android:layout_height="35dp"-->
+<!--            android:layout_margin="10dp"-->
+<!--            android:src="@drawable/google" />-->
 
-    </LinearLayout>
+<!--    </LinearLayout>-->
 
 </RelativeLayout>
