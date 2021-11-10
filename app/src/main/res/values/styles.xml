@@ -40,4 +40,14 @@
         </item>
 
     </style>
+
+    <style name="Button4">
+        <item name="cornerSize">15%</item>
+
+    </style>
+
+    <style name="Button5">
+        <item name="cornerSize">50%</item>
+
+    </style>
 </resources>

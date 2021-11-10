@@ -25,5 +25,11 @@
     <string name="take">Take</string>
     <string name="_15sp">15sp</string>
     <string name="back">Back</string>
-    <string name="back">Back</string>
+    <string name="your_full_name_please">Your full name, please?</string>
+    <string name="email">E-mail</string>
+    <string name="enter_your_email_here">Enter your email here</string>
+    <string name="enter_your_magic_spell_here">Enter your magic spell</string>
+    <string name="password">Password</string>
+    <string name="sign_up_with">Sign Up with</string>
+    <string name="already_have_an_account_sign_in">Already have an account? Sign In</string>
 </resources>

@@ -8,13 +8,14 @@
         <entry key="app/src/main/res/drawable/custom_image_buttton.xml" value="0.23425925925925925" />
         <entry key="app/src/main/res/drawable/ic_launcher_background.xml" value="0.25092592592592594" />
         <entry key="app/src/main/res/drawable/progress_button.xml" value="0.27395833333333336" />
-        <entry key="app/src/main/res/layout/activity_login.xml" value="0.19384057971014493" />
+        <entry key="app/src/main/res/layout/activity_login.xml" value="0.335" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.10885416666666667" />
         <entry key="app/src/main/res/layout/activity_on_boarding1.xml" value="0.25" />
         <entry key="app/src/main/res/layout/activity_on_boarding2.xml" value="0.24003623188405798" />
         <entry key="app/src/main/res/layout/activity_on_boarding3.xml" value="0.24003623188405798" />
         <entry key="app/src/main/res/layout/activity_on_boarding4.xml" value="0.24003623188405798" />
         <entry key="app/src/main/res/layout/activity_product_detail.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/activity_register.xml" value="0.21920289855072464" />
         <entry key="app/src/main/res/layout/activity_splash_screen.xml" value="0.18568840579710144" />
         <entry key="app/src/main/res/layout/item_rv_main_category.xml" value="0.1" />
         <entry key="app/src/main/res/layout/list_item_available.xml" value="0.1" />
