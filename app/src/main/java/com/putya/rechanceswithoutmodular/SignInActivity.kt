@@ -3,9 +3,9 @@ package com.putya.rechanceswithoutmodular
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 
-class RegisterActivity : AppCompatActivity() {
+class SignInActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_register)
+        setContentView(R.layout.activity_sign_in)
     }
 }

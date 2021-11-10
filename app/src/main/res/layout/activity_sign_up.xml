@@ -5,7 +5,7 @@
     android:id="@+id/rv_container"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".LoginActivity">
+    tools:context=".SignUpActivity">
 
     <ImageView
         android:id="@+id/group"
@@ -221,7 +221,7 @@
     <Button
         android:id="@+id/sign_up_button"
         android:layout_width="wrap_content"
-        android:layout_height="72dp"
+        android:layout_height="64dp"
         android:layout_below="@id/password_part"
         android:layout_alignStart="@+id/email_title"
         android:layout_alignParentEnd="true"
@@ -232,7 +232,7 @@
         android:layout_marginTop="4dp"
         android:layout_marginEnd="59dp"
         android:layout_marginRight="5dp"
-        android:layout_marginBottom="117dp"
+        android:layout_marginBottom="125dp"
         android:fontFamily="@font/poppins_semibold"
         android:text="@string/sign_up"
         android:textAllCaps="true"
@@ -245,10 +245,10 @@
         android:id="@+id/sign_in_TV"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:gravity="center"
         android:layout_alignParentBottom="true"
         android:layout_marginBottom="75dp"
         android:fontFamily="@font/poppins_regular"
+        android:gravity="center"
         android:text="@string/already_have_an_account_sign_in"
         android:textColor="#5B5B5E"
         android:textSize="14sp" />

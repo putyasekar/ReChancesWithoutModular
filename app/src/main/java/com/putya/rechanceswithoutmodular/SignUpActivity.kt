@@ -1,4 +1,4 @@
 package com.putya.rechanceswithoutmodular
 
-class LoginActivity {
+class SignUpActivity {
 }
