@@ -42,4 +42,9 @@
     <string name="plant">Plant</string>
     <string name="based_on_your_interests">Based on Your Interests</string>
     <string name="view_all"><![CDATA[View All >]]></string>
+    <string name="home">Home</string>
+    <string name="list_items">List Items</string>
+    <string name="post">Post</string>
+    <string name="messages">Messages</string>
+    <string name="profile">Profile</string>
 </resources>
