@@ -23,7 +23,7 @@
 
     <item
         android:id="@+id/chat_page"
-        android:icon="@drawable/icon_chat"
+        android:icon="@drawable/mssg"
         android:title="@string/messages"
         app:cnb_iconColor="@color/purple" />
 
