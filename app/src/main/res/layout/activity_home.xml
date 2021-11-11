@@ -61,57 +61,87 @@
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent" />
 
-<!--    <LinearLayout-->
-<!--        android:id="@+id/search_field"-->
-<!--        android:layout_width="254dp"-->
-<!--        android:layout_height="71dp">-->
+    <!--    <LinearLayout-->
+    <!--        android:id="@+id/search_field"-->
+    <!--        android:layout_width="418dp"-->
+    <!--        android:layout_below="@id/welcome_text"-->
+    <!--        android:orientation="vertical"-->
+    <!--        android:layout_height="91dp">-->
 
-<!--        <com.google.android.material.textfield.TextInputLayout-->
-<!--            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense"-->
-<!--            android:layout_width="350dp"-->
-<!--            android:layout_height="wrap_content"-->
-<!--            android:layout_gravity="center"-->
-<!--            android:layout_marginLeft="5dp"-->
-<!--            android:layout_marginTop="5dp"-->
-<!--            android:layout_marginRight="5dp"-->
-<!--            android:hint="@string/find_goods_by_your_desire"-->
-<!--            app:boxStrokeColor="#4C4EB9"-->
-<!--            app:boxStrokeWidth="1dp"-->
-<!--            app:endIconMode="custom"-->
-<!--            app:hintTextColor="#9A99A3"-->
-<!--            app:shapeAppearanceOverlay="@style/Button4">-->
+    <!--        <com.google.android.material.textfield.TextInputLayout-->
+    <!--            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense"-->
+    <!--            android:layout_width="350dp"-->
+    <!--            android:layout_height="wrap_content"-->
+    <!--            android:hint="@string/find_goods_by_your_desire"-->
+    <!--            app:boxStrokeColor="#4C4EB9"-->
+    <!--            app:boxStrokeWidth="1dp"-->
+    <!--            android:layout_gravity="center"-->
+    <!--            android:background="#FCFCFD"-->
+    <!--            android:gravity="center_horizontal"-->
+    <!--            android:layout_marginEnd="00dp"-->
+    <!--            app:endIconMode="custom"-->
+    <!--            app:hintTextColor="#9A99A3"-->
+    <!--            app:shapeAppearanceOverlay="@style/Button4">-->
 
-<!--            <com.google.android.material.textfield.TextInputEditText-->
-<!--                android:id="@+id/password_ET"-->
-<!--                android:layout_width="match_parent"-->
-<!--                android:layout_height="66dp"-->
-<!--                android:ems="10"-->
-<!--                android:fontFamily="@font/poppins_regular"-->
-<!--                android:inputType="textPassword"-->
-<!--                android:textColor="@color/black"-->
-<!--                android:textSize="14sp" />-->
-<!--        </com.google.android.material.textfield.TextInputLayout>-->
+    <!--            <com.google.android.material.textfield.TextInputEditText-->
+    <!--                android:id="@+id/search_ET"-->
+    <!--                android:layout_width="match_parent"-->
+    <!--                android:layout_height="66dp"-->
+    <!--                android:fontFamily="@font/poppins_regular"-->
+    <!--                android:inputType="textAutoComplete"-->
+    <!--                android:textColor="@color/black"-->
+    <!--                android:layout_below="@id/welcome_text"-->
+    <!--                android:textSize="14sp" />-->
+    <!--        </com.google.android.material.textfield.TextInputLayout>-->
 
-<!--    </LinearLayout>-->
+    <!--    </LinearLayout>-->
 
-    <EditText
-        android:id="@+id/search_bar"
-        android:layout_width="212dp"
-        android:layout_height="47dp"
-        android:layout_marginStart="42dp"
-        android:layout_marginTop="14dp"
-        android:layout_marginEnd="161dp"
+    <!--    <EditText-->
+    <!--        android:id="@+id/search_bar"-->
+    <!--        android:layout_width="212dp"-->
+    <!--        android:layout_height="47dp"-->
+    <!--        android:layout_marginStart="42dp"-->
+    <!--        android:layout_marginTop="14dp"-->
+    <!--        android:layout_marginEnd="161dp"-->
+    <!--        android:background="#FCFCFD"-->
+    <!--        android:fontFamily="@font/poppins_regular"-->
+    <!--        android:hint="@string/find_goods_by_your_desire"-->
+    <!--        android:textColor="@color/black"-->
+    <!--        android:textColorHint="#9AA0B4"-->
+    <!--        android:textSize="14sp"-->
+    <!--        app:boxStrokeColor="#4C4EB9"-->
+    <!--        app:boxStrokeWidth="1dp"-->
+    <!--        app:layout_constraintEnd_toEndOf="parent"-->
+    <!--        app:layout_constraintStart_toStartOf="parent"-->
+    <!--        app:layout_constraintTop_toBottomOf="@+id/welcome_text"-->
+    <!--        app:shapeAppearanceOverlay="@style/Button4" />-->
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/search_field"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense"
+        android:layout_width="306dp"
+        android:layout_height="74dp"
+        android:layout_gravity="center"
         android:background="#FCFCFD"
-        android:fontFamily="@font/poppins_regular"
         android:hint="@string/find_goods_by_your_desire"
-        android:textColor="@color/black"
-        android:textColorHint="#9AA0B4"
-        android:textSize="14sp"
-        app:boxStrokeColor="#4C4EB9"
+        app:boxStrokeColor="@color/purple"
+        app:boxStrokeErrorColor="#FB0000"
         app:boxStrokeWidth="1dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
+        app:hintTextColor="#9AA0B4"
+        app:layout_constraintEnd_toEndOf="@+id/welcome_text"
+        app:layout_constraintStart_toStartOf="@+id/welcome_text"
         app:layout_constraintTop_toBottomOf="@+id/welcome_text"
-        app:shapeAppearanceOverlay="@style/Button4" />
+        app:shapeAppearanceOverlay="@style/SearchField">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/search_ET"
+            android:layout_width="226dp"
+            android:layout_height="57dp"
+            android:ems="10"
+            android:fontFamily="@font/poppins_regular"
+            android:inputType="textAutoComplete"
+            android:textColor="@color/black"
+            android:textSize="14sp" />
+    </com.google.android.material.textfield.TextInputLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -46,6 +46,11 @@
 
     </style>
 
+    <style name="SearchField">
+        <item name="cornerSize">20%</item>
+
+    </style>
+
     <style name="Button5">
         <item name="cornerSize">50%</item>
 
