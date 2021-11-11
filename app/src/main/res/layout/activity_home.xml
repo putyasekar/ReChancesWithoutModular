@@ -15,4 +15,13 @@
         android:src="@drawable/menu"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/profile_picture"
+        android:layout_width="111dp"
+        android:layout_height="117dp"
+        android:src="@drawable/pp"
+        tools:layout_editor_absoluteX="288dp"
+        tools:layout_editor_absoluteY="16dp" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
