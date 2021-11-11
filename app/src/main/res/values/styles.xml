@@ -48,6 +48,7 @@
 
     <style name="SearchField">
         <item name="cornerSize">20%</item>
+        <item name="backgroundColor">#FCFCFD</item>
 
     </style>
 
