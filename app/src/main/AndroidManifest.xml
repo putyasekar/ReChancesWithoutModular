@@ -17,48 +17,41 @@
         android:roundIcon="@drawable/logo_fix"
         android:supportsRtl="true"
         android:theme="@style/Theme.ReChancesWithoutModular"
-
         android:usesCleartextTraffic="true">
+        <activity
+            android:name=".activity.HomeActivity"
+            android:exported="false" />
         <activity
             android:name=".activity.SignInActivity"
             android:exported="false" />
-
         <activity
             android:name=".OnBoarding4"
             android:exported="true" />
-
         <activity
             android:name=".OnBoarding3"
             android:exported="true" />
-
         <activity
             android:name=".OnBoarding2"
             android:exported="true" />
-
         <activity
             android:name=".OnBoarding1"
             android:exported="true" />
-
         <activity
             android:name=".activity.MainActivity"
             android:exported="true" />
-
         <activity
             android:name=".activity.SplashScreen"
             android:exported="true">
-
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
-
         </activity>
 
         <meta-data
             android:name="com.google.android.gms.version"
             android:value="@integer/google_play_services_version" />
-
         <meta-data
             android:name="com.google.android.geo.API_KEY"
             android:value="@string/google_maps_key" />
@@ -67,7 +60,6 @@
             android:name=".utils.GetAddressIntentService"
             android:exported="false"
             tools:ignore="Instantiatable" />
-
     </application>
 
 </manifest>
