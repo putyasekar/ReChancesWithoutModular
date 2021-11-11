@@ -8,20 +8,25 @@
 
     <ImageView
         android:id="@+id/menu_navigation"
-        android:layout_width="118dp"
+        android:layout_width="0dp"
         android:layout_height="118dp"
         android:layout_marginStart="16dp"
         android:layout_marginTop="16dp"
+        android:layout_marginEnd="154dp"
         android:src="@drawable/menu"
+        app:layout_constraintEnd_toStartOf="@+id/profile_picture"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <ImageView
         android:id="@+id/profile_picture"
-        android:layout_width="111dp"
-        android:layout_height="117dp"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginEnd="16dp"
         android:src="@drawable/pp"
-        tools:layout_editor_absoluteX="288dp"
-        tools:layout_editor_absoluteY="16dp" />
+        app:layout_constraintBottom_toBottomOf="@+id/menu_navigation"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/menu_navigation"
+        app:layout_constraintTop_toTopOf="@+id/menu_navigation" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
