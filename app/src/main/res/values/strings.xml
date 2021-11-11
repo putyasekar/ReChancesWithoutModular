@@ -40,4 +40,6 @@
     <string name="what_are_you_looking_for_today">What are you looking for today?</string>
     <string name="find_goods_by_your_desire">Find goods by your desire…</string>
     <string name="plant">Plant</string>
+    <string name="based_on_your_interests">Based on Your Interests</string>
+    <string name="view_all"><![CDATA[View All >]]></string>
 </resources>
