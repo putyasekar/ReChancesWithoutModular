@@ -28,6 +28,7 @@
         <entry key="app/src/main/res/layout/list_item_unavailable.xml" value="0.1" />
         <entry key="app/src/main/res/layout/on_boarding_1.xml" value="0.19384057971014493" />
         <entry key="app/src/main/res/layout/static_rv_item.xml" value="0.5" />
+        <entry key="app/src/main/res/menu/bottom_navigation.xml" value="0.2578125" />
       </map>
     </option>
   </component>

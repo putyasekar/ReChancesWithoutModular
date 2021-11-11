@@ -96,8 +96,9 @@ dependencies {
     // Scalable Unit Size
     implementation 'com.intuit.sdp:sdp-android:1.0.6'
 
-    //Animation
+    //UI Support
     implementation 'com.airbnb.android:lottie:3.6.1'
+    implementation 'com.ismaeldivita.chipnavigation:chip-navigation-bar:1.2.0'
 
     //ViewPager2
     implementation 'androidx.viewpager2:viewpager2:1.0.0'
