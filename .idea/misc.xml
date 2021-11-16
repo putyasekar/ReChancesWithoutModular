@@ -32,6 +32,9 @@
         <entry key="app/src/main/res/layout/on_boarding_1.xml" value="0.19384057971014493" />
         <entry key="app/src/main/res/layout/static_rv_item.xml" value="0.5" />
         <entry key="app/src/main/res/menu/bottom_navigation.xml" value="0.2578125" />
+        <entry key="app/src/main/res/menu/home_nav_drawer.xml" value="0.24322916666666666" />
+        <entry key="app/src/main/res/menu/navigation_drawer.xml" value="0.5" />
+        <entry key="app/src/main/res/xml/content_drawer_motion.xml" value="0.23143115942028986" />
       </map>
     </option>
   </component>

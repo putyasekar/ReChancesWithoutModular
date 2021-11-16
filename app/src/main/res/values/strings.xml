@@ -47,4 +47,9 @@
     <string name="post">Post</string>
     <string name="messages">Messages</string>
     <string name="profile">Profile</string>
+    <string name="switch_theme">Switch Theme</string>
+    <string name="contact_us">Contact Us</string>
+    <string name="settings">Settings</string>
+    <string name="helps_faqs"><![CDATA[Helps & FAQs]]></string>
+    <string name="log_out">Log Out</string>
 </resources>
