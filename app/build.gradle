@@ -3,6 +3,8 @@ plugins {
     id 'kotlin-android'
     id 'kotlin-kapt'
     id 'dagger.hilt.android.plugin'
+    id 'kotlin-parcelize'
+    id 'androidx.navigation.safeargs.kotlin'
 //    id 'com.google.gms.google-services'
 }
 
@@ -114,6 +116,9 @@ dependencies {
     implementation 'com.google.firebase:firebase-storage-ktx:20.0.0'
     implementation 'com.google.firebase:firebase-database-ktx:20.0.2'
     implementation 'com.google.firebase:firebase-messaging:23.0.0'
+
+    // Stream Chat
+    implementation "io.getstream:stream-chat-android-ui-components:4.13.0"
 
 
     testImplementation 'junit:junit:4.13.2'

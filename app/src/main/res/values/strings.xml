@@ -55,4 +55,7 @@
     <string name="user_s_name_here">User\'s Name Here</string>
     <string name="rechances_gmail_com">rechances@gmail.com</string>
     <string name="username">Username</string>
+    <string name="user_names">User Names</string>
+    <string name="_01_01_2021_10_00_am">01/01/2021 10:00 AM</string>
+    <string name="search">Search</string>
 </resources>
