@@ -34,6 +34,7 @@
         <entry key="app/src/main/res/layout/item_rv_main_category.xml" value="0.1" />
         <entry key="app/src/main/res/layout/list_item_available.xml" value="0.1" />
         <entry key="app/src/main/res/layout/list_item_unavailable.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/nav_header_home.xml" value="0.125" />
         <entry key="app/src/main/res/layout/on_boarding_1.xml" value="0.19384057971014493" />
         <entry key="app/src/main/res/layout/static_rv_item.xml" value="0.5" />
         <entry key="app/src/main/res/menu/bottom_navigation.xml" value="0.2578125" />

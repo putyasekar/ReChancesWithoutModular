@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingBottom="30dp"
+    android:theme="@style/ThemeOverlay.AppCompat.Dark">
+
+    <ImageView
+        android:id="@+id/profile_picture_nav"
+        android:layout_width="197dp"
+        android:layout_height="186dp"
+        android:layout_marginTop="16dp"
+        android:src="@drawable/pp_nav"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/username_nav"
+        android:layout_width="277dp"
+        android:layout_height="37dp"
+        android:layout_marginBottom="468dp"
+        android:fontFamily="@font/poppins_semibold"
+        android:text="@string/username"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.415"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/email_nav"
+        android:layout_width="268dp"
+        android:layout_height="32dp"
+        android:fontFamily="@font/poppins_regular"
+        android:text="@string/rechances_gmail_com"
+        android:textColor="#9EA1B1"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toEndOf="@+id/username_nav"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/username_nav"
+        app:layout_constraintTop_toBottomOf="@+id/username_nav" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
