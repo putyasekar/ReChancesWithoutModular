@@ -13,4 +13,32 @@
         <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
         <!-- Customize your theme here. -->
     </style>
+
+    <style name="Widget.NavigationView" parent="@style/Widget.MaterialComponents.NavigationView">
+        <item name="itemBackground">@drawable/navigation_item_background_default</item>
+        <item name="itemHorizontalPadding">@dimen/nav_item_horizontal_padding</item>
+    </style>
+
+    <style name="DrawerArrowStyle" parent="Widget.AppCompat.DrawerArrowToggle">
+        <item name="color">@color/colorPrimary</item>
+    </style>
+
+    <style name="Widget.NavigationView.RippleEffect" parent="">
+        <item name="android:colorControlHighlight">@android:color/transparent</item>
+    </style>
+
+    <style name="Theme.ReChancesWithoutModular.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="TextViewStyle" parent="android:Widget.TextView">
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <dimen name="nav_item_horizontal_padding">24dp</dimen>
 </resources>

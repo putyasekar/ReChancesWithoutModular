@@ -3,12 +3,14 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="../../../../../../../../layout/custom_preview.xml" value="0.2490740740740741" />
         <entry key="app/src/main/res/drawable-v24/base_rectangle.xml" value="0.13425925925925927" />
         <entry key="app/src/main/res/drawable-v24/on_boarding_1.xml" value="0.19074074074074074" />
         <entry key="app/src/main/res/drawable-v24/white_backg.xml" value="0.19074074074074074" />
         <entry key="app/src/main/res/drawable/custom_image_buttton.xml" value="0.23425925925925925" />
         <entry key="app/src/main/res/drawable/ic_launcher_background.xml" value="0.25092592592592594" />
         <entry key="app/src/main/res/drawable/menu.xml" value="0.26944444444444443" />
+        <entry key="app/src/main/res/drawable/navigation_item_background_default.xml" value="0.2490740740740741" />
         <entry key="app/src/main/res/drawable/progress_button.xml" value="0.27395833333333336" />
         <entry key="app/src/main/res/drawable/static_rv_bg.xml" value="0.259375" />
         <entry key="app/src/main/res/layout/activity_chat.xml" value="0.21920289855072464" />
@@ -26,6 +28,8 @@
         <entry key="app/src/main/res/layout/activity_sign_in.xml" value="0.375" />
         <entry key="app/src/main/res/layout/activity_sign_up.xml" value="0.125" />
         <entry key="app/src/main/res/layout/activity_splash_screen.xml" value="0.18568840579710144" />
+        <entry key="app/src/main/res/layout/app_bar_home.xml" value="0.24322916666666666" />
+        <entry key="app/src/main/res/layout/content_home.xml" value="0.24139492753623187" />
         <entry key="app/src/main/res/layout/item_rv_main_category.xml" value="0.1" />
         <entry key="app/src/main/res/layout/list_item_available.xml" value="0.1" />
         <entry key="app/src/main/res/layout/list_item_unavailable.xml" value="0.1" />

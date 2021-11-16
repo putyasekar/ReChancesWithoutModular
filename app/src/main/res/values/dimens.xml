@@ -5,4 +5,7 @@
     <dimen name="_16dp">16dp</dimen>
     <dimen name="_50dp">50dp</dimen>
     <dimen name="_12dp">12dp</dimen>
+    <dimen name="nav_item_background_inset_default">0dp</dimen>
+    <dimen name="nav_item_background_inset_right_default">4dp</dimen>
+    <dimen name="nav_item_background_radius_default">1dp</dimen>
 </resources>
