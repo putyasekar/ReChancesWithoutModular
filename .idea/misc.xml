@@ -19,7 +19,9 @@
         <entry key="app/src/main/res/layout/activity_on_boarding2.xml" value="0.24003623188405798" />
         <entry key="app/src/main/res/layout/activity_on_boarding3.xml" value="0.24003623188405798" />
         <entry key="app/src/main/res/layout/activity_on_boarding4.xml" value="0.24003623188405798" />
+        <entry key="app/src/main/res/layout/activity_post_feed.xml" value="0.24375" />
         <entry key="app/src/main/res/layout/activity_product_detail.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/activity_profile.xml" value="0.24375" />
         <entry key="app/src/main/res/layout/activity_register.xml" value="0.21920289855072464" />
         <entry key="app/src/main/res/layout/activity_sign_in.xml" value="0.375" />
         <entry key="app/src/main/res/layout/activity_sign_up.xml" value="0.125" />
