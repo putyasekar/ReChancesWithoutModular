@@ -13,6 +13,8 @@
         <entry key="app/src/main/res/drawable/navigation_item_background_default.xml" value="0.2490740740740741" />
         <entry key="app/src/main/res/drawable/progress_button.xml" value="0.27395833333333336" />
         <entry key="app/src/main/res/drawable/static_rv_bg.xml" value="0.259375" />
+        <entry key="app/src/main/res/drawable/tags.xml" value="0.22870370370370371" />
+        <entry key="app/src/main/res/drawable/testing_bg.xml" value="0.22870370370370371" />
         <entry key="app/src/main/res/layout/activity_chat.xml" value="0.21920289855072464" />
         <entry key="app/src/main/res/layout/activity_home.xml" value="0.335" />
         <entry key="app/src/main/res/layout/activity_login.xml" value="0.335" />
@@ -38,7 +40,8 @@
         <entry key="app/src/main/res/layout/list_item_unavailable.xml" value="0.1" />
         <entry key="app/src/main/res/layout/nav_header_home.xml" value="0.125" />
         <entry key="app/src/main/res/layout/on_boarding_1.xml" value="0.19384057971014493" />
-        <entry key="app/src/main/res/layout/row_based_on_interest.xml" value="0.5" />
+        <entry key="app/src/main/res/layout/row_based_on_interest.xml" value="0.55" />
+        <entry key="app/src/main/res/layout/row_categories_home.xml" value="0.15579710144927536" />
         <entry key="app/src/main/res/layout/static_rv_item.xml" value="0.5" />
         <entry key="app/src/main/res/layout/user_row_chat.xml" value="0.5" />
         <entry key="app/src/main/res/menu/bottom_navigation.xml" value="0.2578125" />

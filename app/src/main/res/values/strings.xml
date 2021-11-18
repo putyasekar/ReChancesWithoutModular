@@ -60,4 +60,9 @@
     <string name="search">Search</string>
     <string name="tanaman_hias">Tanaman Hias</string>
     <string name="thrift">Thrift</string>
+    <string name="buku_bekas">Buku Bekas</string>
+    <string name="free_delivery">Free Delivery</string>
+    <string name="books">BOOKS</string>
+    <string name="preloved">PRELOVED</string>
+    <string name="good_condition">GOOD CONDITION</string>
 </resources>
