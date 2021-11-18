@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     style="@style/cardViewStyle"
     android:layout_width="wrap_content"
     android:layout_height="wrap_content">
@@ -9,7 +10,21 @@
         android:layout_height="wrap_content"
         android:padding="@dimen/browser_actions_context_menu_min_padding">
 
-        
+        <com.facebook.shimmer.ShimmerFrameLayout
+            android:id="@+id/image"
+            android:layout_width="@dimen/_50dp"
+            android:layout_height="@dimen/_50dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/text_row_BOI"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:fontFamily="@font/poppins_medium"
+            android:text="@string/tanaman_hias"
+            android:textColor="@color/black"
+            android:textSize="15sp" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 
