@@ -61,4 +61,11 @@
         <item name="cornerSize">50%</item>
 
     </style>
+
+    <style name="cardViewStyle">
+        <item name="cardBackgroundColor">@color/cardview_light_background</item>
+        <item name="cornerRadius">@dimen/cardview_compat_inset_shadow</item>
+        <item name="useCompatPadding">true</item>
+        <item name="cardElevation">0dp</item>
+    </style>
 </resources>
