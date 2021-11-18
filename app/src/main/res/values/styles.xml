@@ -68,4 +68,10 @@
         <item name="useCompatPadding">true</item>
         <item name="cardElevation">0dp</item>
     </style>
+
+    <style name="tilStyle">
+        <item name="boxBackgroundColor">@color/white</item>
+<!--        <item name="boxCornerRadiusTopStart">@dimen/card_corner_small</item>-->
+    </style>
+
 </resources>
