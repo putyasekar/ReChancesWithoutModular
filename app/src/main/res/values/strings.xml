@@ -68,4 +68,7 @@
     <string name="your_items_for_offer">Your Items for Offer</string>
     <string name="to_offer">To Offer</string>
     <string name="unavailable">Unavailable</string>
+    <string name="_2_itmes">2 Itmes</string>
+    <string name="_2_items">2 Items</string>
+    <string name="drawer">Drawer</string>
 </resources>

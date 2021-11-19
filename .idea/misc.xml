@@ -5,9 +5,12 @@
       <map>
         <entry key="../../../../../../../../layout/custom_preview.xml" value="0.2490740740740741" />
         <entry key="app/src/main/res/drawable-v24/base_rectangle.xml" value="0.13425925925925927" />
+        <entry key="app/src/main/res/drawable-v24/ic_back.xml" value="0.27395833333333336" />
         <entry key="app/src/main/res/drawable-v24/on_boarding_1.xml" value="0.19074074074074074" />
         <entry key="app/src/main/res/drawable-v24/white_backg.xml" value="0.19074074074074074" />
         <entry key="app/src/main/res/drawable/backg_for_list_items.xml" value="0.27395833333333336" />
+        <entry key="app/src/main/res/drawable/backg_photo_item.xml" value="0.27395833333333336" />
+        <entry key="app/src/main/res/drawable/button_rect.xml" value="0.27395833333333336" />
         <entry key="app/src/main/res/drawable/custom_image_buttton.xml" value="0.23425925925925925" />
         <entry key="app/src/main/res/drawable/ic_launcher_background.xml" value="0.25092592592592594" />
         <entry key="app/src/main/res/drawable/menu.xml" value="0.26944444444444443" />
@@ -45,7 +48,7 @@
         <entry key="app/src/main/res/layout/on_boarding_1.xml" value="0.19384057971014493" />
         <entry key="app/src/main/res/layout/row_based_on_interest.xml" value="0.55" />
         <entry key="app/src/main/res/layout/row_categories_home.xml" value="0.15579710144927536" />
-        <entry key="app/src/main/res/layout/row_list_items.xml" value="0.5" />
+        <entry key="app/src/main/res/layout/row_list_items.xml" value="0.25" />
         <entry key="app/src/main/res/layout/static_rv_item.xml" value="0.5" />
         <entry key="app/src/main/res/layout/user_row_chat.xml" value="0.5" />
         <entry key="app/src/main/res/menu/bottom_navigation.xml" value="0.2578125" />
