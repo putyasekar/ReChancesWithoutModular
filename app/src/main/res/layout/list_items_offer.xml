@@ -55,9 +55,9 @@
             android:layout_weight="1"
             android:fontFamily="@font/poppins_medium"
             android:gravity="center"
-            android:paddingLeft="10dp"
+            android:paddingStart="10dp"
             android:paddingTop="5dp"
-            android:paddingRight="15dp"
+            android:paddingEnd="15dp"
             android:paddingBottom="5dp"
             android:text="@string/unavailable"
             android:textAlignment="center"
@@ -70,11 +70,22 @@
         android:id="@+id/toOfferLayout"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="@color/white"
         android:gravity="center"
-        android:orientation="vertical"
-        android:padding="25dp">
+        android:orientation="vertical">
 
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/rv_list_items_1"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="20dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.526"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/search_field"
+            app:layout_constraintVertical_bias="0.0" />
 
     </LinearLayout>
 
@@ -87,6 +98,20 @@
         android:orientation="vertical"
         android:padding="25dp"
         android:visibility="gone">
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/rv_list_items_2"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="20dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.526"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/search_field"
+            app:layout_constraintVertical_bias="0.0" />
 
     </LinearLayout>
 
