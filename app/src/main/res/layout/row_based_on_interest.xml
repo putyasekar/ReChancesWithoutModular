@@ -5,7 +5,7 @@
     android:layout_width="220dp"
     app:cardCornerRadius="10dp"
     android:layout_height="250dp"
-    android:layout_marginLeft="15dp">
+    android:layout_marginStart="15dp">
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="220dp"
@@ -85,7 +85,6 @@
             android:gravity="center"
             android:text="@string/preloved"
             android:textAlignment="center"
-
             android:textColor="#8A8E9B"
             android:textSize="8sp"
             app:layout_constraintBottom_toBottomOf="@+id/tags_1"
