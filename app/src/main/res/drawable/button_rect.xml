@@ -6,7 +6,7 @@
     android:viewportHeight="30">
 
     <group>
-
+        
         <clip-path android:pathData="M9 0H21C25.9706 0 30 4.02944 30 9V21C30 25.9706 25.9706 30 21 30H9C4.02944 30 0 25.9706 0 21V9C0 4.02944 4.02944 0 9 0Z" />
 
         <path
@@ -15,4 +15,5 @@
 
     </group>
 
-</vector>
+
+    </vector>

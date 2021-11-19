@@ -71,4 +71,8 @@
     <string name="_2_itmes">2 Itmes</string>
     <string name="_2_items">2 Items</string>
     <string name="drawer">Drawer</string>
+    <string name="condition_type">Condition/Type</string>
+    <string name="type_of_porterage">Type of Porterage</string>
+    <string name="preloved_2">Preloved</string>
+    <string name="free_shipping">Free Shipping</string>
 </resources>
