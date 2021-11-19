@@ -39,7 +39,7 @@
         <entry key="app/src/main/res/layout/item_rv_main_category.xml" value="0.1" />
         <entry key="app/src/main/res/layout/list_item_available.xml" value="0.1" />
         <entry key="app/src/main/res/layout/list_item_unavailable.xml" value="0.1" />
-        <entry key="app/src/main/res/layout/list_items_offer.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/list_items_offer.xml" value="0.5" />
         <entry key="app/src/main/res/layout/nav_header_home.xml" value="0.125" />
         <entry key="app/src/main/res/layout/on_boarding_1.xml" value="0.19384057971014493" />
         <entry key="app/src/main/res/layout/row_based_on_interest.xml" value="0.55" />
