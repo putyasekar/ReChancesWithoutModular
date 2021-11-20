@@ -75,4 +75,6 @@
     <string name="type_of_porterage">Type of Porterage</string>
     <string name="preloved_2">Preloved</string>
     <string name="free_shipping">Free Shipping</string>
+    <string name="customer_sekian">Customer Sekian</string>
+    <string name="type_message">Type message...</string>
 </resources>
