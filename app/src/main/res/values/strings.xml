@@ -68,7 +68,6 @@
     <string name="your_items_for_offer">Your Items for Offer</string>
     <string name="to_offer">To Offer</string>
     <string name="unavailable">Unavailable</string>
-    <string name="_2_itmes">2 Itmes</string>
     <string name="_2_items">2 Items</string>
     <string name="drawer">Drawer</string>
     <string name="condition_type">Condition/Type</string>
@@ -76,8 +75,9 @@
     <string name="preloved_2">Preloved</string>
     <string name="free_shipping">Free Shipping</string>
     <string name="customer_sekian">Customer Sekian</string>
-    <string name="type_message">Type message...</string>
+    <string name="type_message">Type message…</string>
     <string name="sender_s_bubble_on_left">Sender\'s Bubble on left</string>
     <string name="_1_items" />
     <string name="_1_itemss">1 Items</string>
+    <string name="user_full_name">User Full Name</string>
 </resources>
