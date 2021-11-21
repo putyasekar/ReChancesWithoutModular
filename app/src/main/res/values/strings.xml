@@ -78,4 +78,6 @@
     <string name="customer_sekian">Customer Sekian</string>
     <string name="type_message">Type message...</string>
     <string name="sender_s_bubble_on_left">Sender\'s Bubble on left</string>
+    <string name="_1_items" />
+    <string name="_1_itemss">1 Items</string>
 </resources>
