@@ -30,7 +30,7 @@
             android:layout_width="223dp"
             android:layout_height="225dp"
             android:layout_marginTop="72dp"
-            android:src="@drawable/dp"
+            android:src="@drawable/photo_profile"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
