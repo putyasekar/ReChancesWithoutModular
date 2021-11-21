@@ -80,4 +80,6 @@
     <string name="_1_items" />
     <string name="_1_itemss">1 Items</string>
     <string name="user_full_name">User Full Name</string>
+    <string name="username">Username</string>
+    <string name="uname">\@your_username</string>
 </resources>
