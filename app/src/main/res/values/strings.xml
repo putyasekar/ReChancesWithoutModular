@@ -83,4 +83,8 @@
     <string name="username">Username</string>
     <string name="uname">\@your_username</string>
     <string name="text_search_user_here">Search here...</string>
+    <string name="notification">Notification</string>
+    <string name="push_e_mail_mute">Push, E-mail, Mute</string>
+    <string name="privacy">Privacy</string>
+    <string name="log_out">Log Out</string>
 </resources>
