@@ -54,6 +54,7 @@
         <entry key="app/src/main/res/layout/row_based_on_interest.xml" value="0.55" />
         <entry key="app/src/main/res/layout/row_categories_home.xml" value="0.15579710144927536" />
         <entry key="app/src/main/res/layout/row_list_items.xml" value="0.375" />
+        <entry key="app/src/main/res/layout/row_list_items_unavailable.xml" value="0.15172101449275363" />
         <entry key="app/src/main/res/layout/sender_bubble.xml" value="0.5" />
         <entry key="app/src/main/res/layout/static_rv_item.xml" value="0.5" />
         <entry key="app/src/main/res/layout/user_bubble.xml" value="0.5" />
