@@ -90,6 +90,14 @@
                 android:textColor="@color/black"
                 android:textSize="13sp" />
 
+            <ImageView
+                android:id="@+id/next"
+                android:layout_width="111dp"
+                android:layout_height="95dp"
+                android:layout_marginStart="215dp"
+                android:layout_marginTop="5dp"
+                android:src="@drawable/next" />
+
         </androidx.cardview.widget.CardView>
     </androidx.constraintlayout.widget.ConstraintLayout>
 

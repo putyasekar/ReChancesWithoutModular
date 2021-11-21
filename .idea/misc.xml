@@ -45,6 +45,7 @@
         <entry key="app/src/main/res/layout/app_bar_home.xml" value="0.24322916666666666" />
         <entry key="app/src/main/res/layout/content_home.xml" value="0.24139492753623187" />
         <entry key="app/src/main/res/layout/fragment_chat.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/fragment_search.xml" value="0.5" />
         <entry key="app/src/main/res/layout/fragment_user.xml" value="0.15081521739130435" />
         <entry key="app/src/main/res/layout/fragment_users.xml" value="0.375" />
         <entry key="app/src/main/res/layout/item_rv_main_category.xml" value="0.1" />
