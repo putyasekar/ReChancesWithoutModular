@@ -22,6 +22,9 @@
         android:theme="@style/Theme.ReChancesWithoutModular"
         android:usesCleartextTraffic="true">
         <activity
+            android:name=".activity.MainActivity"
+            android:exported="true" />
+        <activity
             android:name=".activity.PostFeedActivity"
             android:exported="false" />
         <activity
@@ -34,7 +37,7 @@
             android:name=".activity.HomeActivity"
             android:exported="false" />
         <activity
-            android:name=".activity.SignInActivity"
+            android:name=".authentication.SignInActivity"
             android:exported="false" />
         <activity
             android:name=".intro.OnBoarding4"
@@ -47,9 +50,6 @@
             android:exported="true" />
         <activity
             android:name=".intro.OnBoarding1"
-            android:exported="true" />
-        <activity
-            android:name=".activity.MainActivity"
             android:exported="true" />
         <activity
             android:name=".intro.SplashScreen"

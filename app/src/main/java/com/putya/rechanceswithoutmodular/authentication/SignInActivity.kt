@@ -1,4 +1,4 @@
-package com.putya.rechanceswithoutmodular.activity
+package com.putya.rechanceswithoutmodular.authentication
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle

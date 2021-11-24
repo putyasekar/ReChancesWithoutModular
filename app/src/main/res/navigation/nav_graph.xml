@@ -7,7 +7,7 @@
 
     <Activity
         android:id="@+id/signInActivity"
-        android:name="com.putya.rechanceswithoutmodular.activity.SignInActivity"
+        android:name="com.putya.rechanceswithoutmodular.authentication.SignInActivity"
         android:label="fragment_login"
         tools:layout="@layout/fragment_login">
         <action
