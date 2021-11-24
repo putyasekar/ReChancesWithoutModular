@@ -1,9 +1,10 @@
-package com.putya.rechanceswithoutmodular.activity
+package com.putya.rechanceswithoutmodular.intro
 
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import com.putya.rechanceswithoutmodular.R
+import com.putya.rechanceswithoutmodular.activity.MainActivity
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.delay
