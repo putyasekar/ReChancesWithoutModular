@@ -11,6 +11,10 @@ plugins {
 android {
     compileSdk 31
 
+    aaptOptions {
+        cruncherEnabled = false
+    }
+
     defaultConfig {
         applicationId "com.putya.rechanceswithoutmodular"
         minSdk 28

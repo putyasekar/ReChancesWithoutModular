@@ -17,12 +17,12 @@ class SplashScreen : AppCompatActivity() {
 
 //        supportActionBar?.hide()
 
-        var handler = Handler()
-        handler.postDelayed({
-            var intent = Intent(this@SplashScreen, OnBoarding1::class.java)
-            startActivity(intent)
-            finish()
-        }, 5000L)
+//        var handler = Handler()
+//        handler.postDelayed({
+//            var intent = Intent(this@SplashScreen, OnBoarding1::class.java)
+//            startActivity(intent)
+//            finish()
+//        }, 5000L)
 
 //        CoroutineScope(Dispatchers.Main).launch {
 //            delay(5000L)
