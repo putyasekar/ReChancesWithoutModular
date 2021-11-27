@@ -6,5 +6,5 @@
     <color name="yellow">#FAC748</color>
     <color name="black">#000000</color>
     <color name="white">#FFFFFF</color>
-    <color name="tansparentColor">#00FFFFFF</color>
+    <color name="transparentColor">#00FFFFFF</color>
 </resources>

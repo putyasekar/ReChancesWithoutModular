@@ -182,42 +182,4 @@
         android:textColor="#5B5B5E"
         android:textSize="14sp" />
 
-    <!--    <TextView-->
-<!--        android:id="@+id/sign_up_with"-->
-<!--        android:layout_width="match_parent"-->
-<!--        android:layout_height="wrap_content"-->
-<!--        android:layout_below="@id/sign_in_TV"-->
-<!--        android:layout_gravity="center"-->
-<!--        android:layout_marginTop="16dp"-->
-<!--        android:layout_marginBottom="16dp"-->
-<!--        android:fontFamily="@font/poppins_regular"-->
-<!--        android:gravity="center"-->
-<!--        android:text="@string/sign_up_with"-->
-<!--        android:textAlignment="center"-->
-<!--        android:textColor="#5B5B5E"-->
-<!--        android:textSize="18sp" />-->
-
-<!--    <LinearLayout-->
-<!--        android:layout_width="match_parent"-->
-<!--        android:layout_height="wrap_content"-->
-<!--        android:layout_below="@id/sign_up_with"-->
-<!--        android:layout_gravity="center"-->
-<!--        android:layout_marginBottom="20dp"-->
-<!--        android:gravity="center"-->
-<!--        android:orientation="horizontal">-->
-
-<!--        <ImageView-->
-<!--            android:layout_width="35dp"-->
-<!--            android:layout_height="35dp"-->
-<!--            android:layout_margin="10dp"-->
-<!--            android:src="@drawable/facebook" />-->
-
-<!--        <ImageView-->
-<!--            android:layout_width="35dp"-->
-<!--            android:layout_height="35dp"-->
-<!--            android:layout_margin="10dp"-->
-<!--            android:src="@drawable/google" />-->
-
-<!--    </LinearLayout>-->
-
 </RelativeLayout>

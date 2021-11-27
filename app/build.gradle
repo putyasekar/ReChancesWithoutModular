@@ -13,6 +13,7 @@ android {
 
     aaptOptions {
         cruncherEnabled = false
+        useNewCruncher = false
     }
 
     defaultConfig {

@@ -113,7 +113,6 @@
 
             </LinearLayout>
 
-
             <TextView
                 android:id="@+id/edit_notification"
                 android:layout_width="match_parent"
@@ -156,7 +155,6 @@
                     android:background="#B3B3B3" />
 
             </LinearLayout>
-
 
             <TextView
                 android:id="@+id/edit_privacy"
