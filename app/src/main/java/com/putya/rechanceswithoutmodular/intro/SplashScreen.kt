@@ -3,7 +3,6 @@ package com.putya.rechanceswithoutmodular.intro
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.os.Handler
 import com.putya.rechanceswithoutmodular.R
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers
