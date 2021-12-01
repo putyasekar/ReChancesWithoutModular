@@ -33,6 +33,7 @@
         <entry key="app/src/main/res/drawable/testing_bg.xml" value="0.22870370370370371" />
         <entry key="app/src/main/res/layout/activity_chat.xml" value="0.21920289855072464" />
         <entry key="app/src/main/res/layout/activity_home.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/activity_intro_slider.xml" value="0.15806159420289856" />
         <entry key="app/src/main/res/layout/activity_login.xml" value="0.335" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.335" />
         <entry key="app/src/main/res/layout/activity_on_boarding1.xml" value="0.25" />
@@ -44,11 +45,12 @@
         <entry key="app/src/main/res/layout/activity_profile.xml" value="0.25" />
         <entry key="app/src/main/res/layout/activity_register.xml" value="0.21920289855072464" />
         <entry key="app/src/main/res/layout/activity_sign_in.xml" value="0.25" />
-        <entry key="app/src/main/res/layout/activity_sign_up.xml" value="0.5" />
+        <entry key="app/src/main/res/layout/activity_sign_up.xml" value="0.375" />
         <entry key="app/src/main/res/layout/activity_splash_screen.xml" value="0.18568840579710144" />
         <entry key="app/src/main/res/layout/app_bar_home.xml" value="0.24322916666666666" />
         <entry key="app/src/main/res/layout/content_home.xml" value="0.24139492753623187" />
         <entry key="app/src/main/res/layout/fragment_chat.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/fragment_intro1.xml" value="0.15806159420289856" />
         <entry key="app/src/main/res/layout/fragment_search.xml" value="0.5" />
         <entry key="app/src/main/res/layout/fragment_user.xml" value="0.15081521739130435" />
         <entry key="app/src/main/res/layout/fragment_users.xml" value="0.375" />

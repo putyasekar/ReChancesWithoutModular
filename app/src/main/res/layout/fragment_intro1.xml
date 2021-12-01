@@ -4,16 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/white"
-    android:orientation="vertical"
-    tools:context=".intro.OnBoarding1">
-
-    <androidx.viewpager2.widget.ViewPager2
-        android:id="@+id/vp1"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent" />
+    android:background="@color/white">
 
     <TextView
         android:id="@+id/skipText"

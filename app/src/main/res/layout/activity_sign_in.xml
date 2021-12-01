@@ -142,7 +142,7 @@
     </LinearLayout>
 
     <Button
-        android:id="@+id/sign_up_button"
+        android:id="@+id/sign_in_button"
         android:layout_width="wrap_content"
         android:layout_height="66dp"
         android:layout_below="@id/password_part"

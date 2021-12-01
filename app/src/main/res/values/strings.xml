@@ -85,4 +85,5 @@
     <string name="push_e_mail_mute">Push, E-mail, Mute</string>
     <string name="privacy">Privacy</string>
     <string name="log_out">Log Out</string>
+    <string name="sign_in_tv">Sign Up here</string>
 </resources>

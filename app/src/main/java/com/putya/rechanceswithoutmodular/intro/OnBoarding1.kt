@@ -17,10 +17,14 @@ class OnBoarding1 : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_on_boarding1)
 
+//        window.setFlags(
+//            WindowManager.LayoutParams.FLAG_FULLSCREEN,
+//            WindowManager.LayoutParams.FLAG_FULLSCREEN
+//        )
 
 //        btnNext = findViewById(R.id.button_next)
 //        btnSkip = findViewById(R.id.skipText)
-
+//
 //        btnNext?.setOnClickListener {
 //            startActivity(Intent(this@OnBoarding1, OnBoarding2::class.java))
 //        }
