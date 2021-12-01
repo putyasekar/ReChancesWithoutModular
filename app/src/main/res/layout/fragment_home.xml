@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".fragment.HomeFragment">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <!-- nanti ganti jd ImageButton, test first-->
+            <ImageView
+                android:id="@+id/menu_navigation"
+                android:layout_width="82dp"
+                android:layout_height="90dp"
+                android:layout_gravity="center"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="16dp"
+                android:src="@drawable/menu"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <ImageView
+                android:id="@+id/profile_picture"
+                android:layout_width="82dp"
+                android:layout_height="90dp"
+                android:layout_gravity="center"
+                android:layout_marginStart="200dp"
+                android:layout_marginTop="@dimen/_16dp"
+                android:layout_marginEnd="16dp"
+                android:src="@drawable/pp" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/hello_text"
+            android:layout_width="243dp"
+            android:layout_height="32dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="40dp"
+            android:layout_marginTop="104dp"
+            android:layout_marginEnd="128dp"
+            android:fontFamily="@font/poppins_medium"
+            android:text="@string/hi_user"
+            android:textColor="@color/black"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/welcome_text"
+            android:layout_width="306dp"
+            android:layout_height="58dp"
+            android:layout_marginStart="40dp"
+            android:layout_marginTop="136dp"
+            android:layout_marginEnd="67dp"
+            android:fontFamily="@font/poppins_bold"
+            android:text="@string/what_are_you_looking_for_today"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/search_field"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense"
+            android:layout_width="301dp"
+            android:layout_height="67dp"
+            android:layout_below="@id/welcome_text"
+            android:layout_alignEnd="@+id/welcome_text"
+            android:layout_gravity="center"
+            android:layout_marginStart="40dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="43dp"
+            android:hint="@string/find_goods_by_your_desire"
+            app:boxStrokeColor="@color/purple"
+            app:boxStrokeErrorColor="#FB0000"
+            app:boxStrokeWidth="1dp"
+            app:hintTextColor="#9AA0B4"
+            app:layout_constraintEnd_toEndOf="@+id/welcome_text"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="@+id/welcome_text"
+            app:layout_constraintTop_toBottomOf="@+id/welcome_text"
+            app:shapeAppearanceOverlay="@style/SearchField">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/search_ET"
+                android:layout_width="230dp"
+                android:layout_height="57dp"
+                android:ems="10"
+                android:fontFamily="@font/poppins_regular"
+                android:inputType="textAutoComplete"
+                android:textColor="@color/black"
+                android:textSize="14sp" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <!-- nanti ganti jd ImageButton, test first-->
+
+        <ImageView
+            android:id="@+id/filter"
+            android:layout_width="183dp"
+            android:layout_height="127dp"
+            android:layout_alignTop="@+id/search_field"
+            android:layout_marginStart="-72dp"
+            android:layout_marginTop="-14dp"
+            android:layout_toEndOf="@+id/search_field"
+            android:src="@drawable/filter" />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/rv_1"
+            android:layout_width="280dp"
+            android:layout_height="159dp"
+            android:layout_below="@id/search_field"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="6dp"
+            android:orientation="horizontal"
+            tools:listitem="@layout/row_categories_home" />
+
+        <TextView
+            android:id="@+id/titleRecom"
+            android:layout_width="229dp"
+            android:layout_height="25dp"
+            android:layout_below="@id/rv_1"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="1dp"
+            android:layout_marginEnd="152dp"
+            android:layout_marginBottom="192dp"
+            android:fontFamily="@font/poppins_semibold"
+            android:text="@string/reccomendations"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="@+id/welcome_text"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="@+id/welcome_text" />
+
+        <TextView
+            android:id="@+id/view_all_1"
+            android:layout_width="71dp"
+            android:layout_height="25dp"
+            android:layout_alignTop="@+id/titleRecom"
+            android:layout_alignEnd="@+id/titleRecom"
+            android:layout_alignBottom="@+id/titleRecom"
+            android:layout_marginTop="-1dp"
+            android:layout_marginEnd="-119dp"
+            android:layout_marginBottom="1dp"
+            android:fontFamily="@font/poppins_medium"
+            android:text="@string/view_all"
+            android:textColor="@color/purple"
+            android:textSize="14sp"
+            app:layout_constraintBottom_toBottomOf="@+id/titleRecom"
+            app:layout_constraintStart_toEndOf="@+id/titleRecom"
+            app:layout_constraintTop_toTopOf="@+id/titleRecom"
+            app:layout_constraintVertical_bias="0.0" />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/rv_2"
+            android:layout_width="match_parent"
+            android:layout_height="251dp"
+            android:layout_below="@+id/view_all_1"
+            android:layout_alignStart="@+id/titleRecom"
+            android:layout_alignEnd="@+id/view_all_1"
+            android:layout_marginStart="2dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="1dp"
+            android:orientation="horizontal"
+            app:layout_constraintBottom_toBottomOf="parent"
+            tools:listitem="@layout/row_based_on_interest" />
+
+    </RelativeLayout>
+
+</ScrollView>
