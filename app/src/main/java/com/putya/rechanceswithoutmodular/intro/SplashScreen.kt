@@ -15,19 +15,12 @@ class SplashScreen : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_splash_screen)
 
-//        supportActionBar?.hide()
+        supportActionBar?.hide()
 
-//        var handler = Handler()
-//        handler.postDelayed({
-//            var intent = Intent(this@SplashScreen, OnBoarding1::class.java)
-//            startActivity(intent)
-//            finish()
-//        }, 5000L)
-
-//        CoroutineScope(Dispatchers.Main).launch {
-//            delay(5000L)
-//            startActivity(Intent(this@SplashScreen, OnBoarding1::class.java))
-//            finish()
-//        }
+        CoroutineScope(Dispatchers.Main).launch {
+            delay(5000L)
+            startActivity(Intent(this@SplashScreen, OnBoarding1::class.java))
+            finish()
+        }
     }
 }
