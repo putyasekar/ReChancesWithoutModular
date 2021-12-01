@@ -1,18 +1,8 @@
 package com.putya.rechanceswithoutmodular.authentication
 
-import android.app.ProgressDialog
-import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.text.Spanned
-import android.widget.Button
-import android.widget.EditText
-import android.widget.TextView
-import android.widget.Toast
-import androidx.core.text.HtmlCompat
 import com.putya.rechanceswithoutmodular.R
-import com.putya.rechanceswithoutmodular.activity.HomeActivity
-import com.putya.rechanceswithoutmodular.activity.MainActivity
 
 class SignInActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {

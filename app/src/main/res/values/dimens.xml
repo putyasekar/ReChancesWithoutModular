@@ -9,4 +9,5 @@
     <dimen name="nav_item_background_inset_right_default">4dp</dimen>
     <dimen name="nav_item_background_radius_default">1dp</dimen>
     <dimen name="_6dp">6dp</dimen>
+    <dimen name="_70dp">70dp</dimen>
 </resources>

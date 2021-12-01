@@ -5,7 +5,6 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.WindowManager
 import com.putya.rechanceswithoutmodular.R
-import com.putya.rechanceswithoutmodular.activity.HomeActivity
 import com.putya.rechanceswithoutmodular.fragment.HomeFragment
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers
