@@ -110,6 +110,16 @@
         android:layout_toEndOf="@+id/search_field"
         android:src="@drawable/filter" />
 
+    <ListView
+        android:id="@+id/list_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/filter"
+        android:layout_marginStart="@dimen/_12sdp"
+        android:layout_marginTop="-24dp"
+        android:layout_marginEnd="@dimen/_12sdp"
+        android:dividerHeight="@dimen/_12sdp" />
+
     <FrameLayout
         android:id="@+id/main_container"
         android:layout_width="match_parent"
