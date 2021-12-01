@@ -30,7 +30,6 @@
         android:fontFamily="@font/poppins_semibold"
         android:gravity="center_horizontal|top"
         android:text="@string/skip"
-        android:textAppearance="@style/skip"
         android:textSize="20sp"
         android:textStyle="bold" />
 

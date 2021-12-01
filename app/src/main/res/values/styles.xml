@@ -1,55 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-
-    <style name="re_chances">
-
-        <item name="android:textSize">
-            40sp
-        </item>
-
-        <item name="android:textColor">
-            #FFFFFF
-        </item>
-
-        <item name="android:shadowColor">
-            #21000000
-        </item>
-
-        <item name="android:shadowDx">
-            0
-        </item>
-
-        <item name="android:shadowDy">
-            4
-        </item>
-
-        <item name="android:shadowRadius">
-            4
-        </item>
-
-    </style>
-
-    <style name="skip">
-
-        <item name="android:textSize">
-            20sp
-        </item>
-
-        <item name="android:textColor">
-            #000000
-        </item>
-
-    </style>
-
-    <style name="Button4">
-        <item name="cornerSize">15%</item>
-
-    </style>
-
     <style name="SearchField">
         <item name="cornerSize">20%</item>
         <item name="backgroundColor">#FCFCFD</item>
-
     </style>
 
     <style name="Button5">
@@ -62,11 +15,6 @@
         <item name="backgroundColor">@color/purple</item>
     </style>
 
-    <style name="MenuRect">
-        <item name="cornerSize">50%</item>
-
-    </style>
-
     <style name="cardViewStyle">
         <item name="cardBackgroundColor">@color/white</item>
         <item name="cornerRadius">@dimen/cardview_compat_inset_shadow</item>
@@ -74,23 +22,8 @@
         <item name="cardElevation">0dp</item>
     </style>
 
-    <style name="tilStyle">
-        <item name="boxBackgroundColor">@color/white</item>
-        <!--        <item name="boxCornerRadiusTopStart">@dimen/card_corner_small</item>-->
-    </style>
-
-    <style name="buttonRectDisplay">
-        <vector xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt" android:width="30dp" android:height="30dp" android:viewportWidth="30" android:viewportHeight="30">
-
-            <group>
-
-                <clip-path android:pathData="M9 0H21C25.9706 0 30 4.02944 30 9V21C30 25.9706 25.9706 30 21 30H9C4.02944 30 0 25.9706 0 21V9C0 4.02944 4.02944 0 9 0Z" />
-
-                <path android:fillColor="@color/purple" android:pathData="M0 0V30H30V0" />
-
-            </group>
-
-        </vector>
+    <style name="Button4">
+        <item name="cornerSize">15%</item>
     </style>
 
 </resources>
