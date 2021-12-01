@@ -1,35 +1,33 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/splash"
     android:layout_width="fill_parent"
     android:layout_height="fill_parent"
     android:background="@color/purple"
+    android:orientation="vertical"
     tools:context=".intro.SplashScreen">
 
     <ImageView
         android:layout_width="93dp"
         android:layout_height="93dp"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentTop="true"
-        android:layout_marginStart="161dp"
-        android:layout_marginTop="262dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="250dp"
         android:background="@drawable/base_rectangle"
-        android:elevation="30dp"
+        android:foregroundGravity="center"
         android:src="@drawable/logo_fix" />
 
     <TextView
         android:id="@+id/re_chances"
-        android:layout_width="257dp"
-        android:layout_height="60dp"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentTop="true"
-        android:layout_marginStart="79dp"
-        android:layout_marginTop="384dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
         android:fontFamily="@font/poppins_bold"
-        android:gravity="center_horizontal|center_vertical"
+        android:layout_gravity="center"
+        android:gravity="center_horizontal"
         android:text="@string/re_chances"
         android:textColor="@color/white"
         android:textSize="40sp" />
-</RelativeLayout>
+
+</LinearLayout>
