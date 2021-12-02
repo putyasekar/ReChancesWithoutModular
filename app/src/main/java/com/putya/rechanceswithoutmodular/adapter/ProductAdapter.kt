@@ -1,15 +1,16 @@
 package com.putya.rechanceswithoutmodular.adapter
 
 import android.annotation.SuppressLint
-import android.graphics.ColorSpace
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import android.widget.ImageView
 import androidx.recyclerview.widget.RecyclerView
 import com.bumptech.glide.Glide
 import com.bumptech.glide.request.RequestOptions
 import com.putya.rechanceswithoutmodular.R
 import com.putya.rechanceswithoutmodular.model.ContentModel
+import kotlinx.android.synthetic.main.row_based_on_interest.view.*
 
 class ProductAdapter(private val listener: (ContentModel) -> Unit) :
     RecyclerView.Adapter<ProductAdapter.ViewHolder>() {
@@ -26,7 +27,7 @@ class ProductAdapter(private val listener: (ContentModel) -> Unit) :
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): ViewHolder {
         val view = LayoutInflater.from(parent.context)
             .inflate(R.layout.row_based_on_interest, parent, false)
-        return ViewHolder(view)
+        return ViewHolder(view,)
     }
 
     override fun getItemCount(): Int = listProduct.size
@@ -44,7 +45,7 @@ class ProductAdapter(private val listener: (ContentModel) -> Unit) :
                     .override(300)
                     .into(iv_product)
 
-                title_1.text = content.title
+                tv_title.text = content.title
                 delivery_status.text = content.status_delivery
 
                 itemView.setOnClickListener { listener(content) }
