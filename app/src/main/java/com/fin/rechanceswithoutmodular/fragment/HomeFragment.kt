@@ -6,7 +6,6 @@ import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import android.widget.ImageView
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.fin.rechanceswithoutmodular.R
 import com.fin.rechanceswithoutmodular.activity.DetailActivity
@@ -36,7 +35,7 @@ class HomeFragment : Fragment() {
 
 //    private fun showSelected() {
 //        view_all_1.setOnClickListener {
-//            val intent = Intent(context, PopularActivity::class.java)
+//            val intent = Intent(context, MoreProductActivity::class.java)
 //            startActivity(intent)
 //        }
 //    }
@@ -60,17 +59,20 @@ class HomeFragment : Fragment() {
         val dataTitle = resources.getStringArray(R.array.title)
         val dataStatus = resources.getStringArray(R.array.status)
         val dataTags = resources.getStringArray(R.array.tags)
+        val dataDesc = resources.getStringArray(R.array.desc)
         val dataImage = resources.obtainTypedArray(R.array.image)
 
-        val lisProduct = ArrayList<ContentModel>()
+        val listProduct = ArrayList<ContentModel>()
 
         for (position in dataTitle.indices) {
             val product = ContentModel(
                 dataTitle[position],
                 dataStatus[position],
                 dataTags[position],
+                dataDesc[position],
                 dataImage.getResourceId(position, -1)
             )
+
             listProduct.add(product)
         }
         return listProduct
