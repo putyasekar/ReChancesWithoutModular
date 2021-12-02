@@ -8,10 +8,10 @@ import android.view.View
 import android.view.ViewGroup
 import android.widget.ImageView
 import androidx.recyclerview.widget.LinearLayoutManager
-import com.airbnb.lottie.model.content.ContentModel
 import com.fin.rechanceswithoutmodular.R
 import com.fin.rechanceswithoutmodular.activity.DetailActivity
 import com.fin.rechanceswithoutmodular.adapter.ProductAdapter
+import com.fin.rechanceswithoutmodular.model.ContentModel
 import kotlinx.android.synthetic.main.fragment_home.*
 
 class HomeFragment : Fragment() {
@@ -59,7 +59,7 @@ class HomeFragment : Fragment() {
     private fun getListProduct(): ArrayList<ContentModel> {
         val dataTitle = resources.getStringArray(R.array.title)
         val dataStatus = resources.getStringArray(R.array.status)
-        val dataTags = resources.getStringArray(R.array.place)
+        val dataTags = resources.getStringArray(R.array.tags)
         val dataImage = resources.obtainTypedArray(R.array.image)
 
         val listHotel = ArrayList<ContentModel>()

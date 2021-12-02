@@ -1,5 +1,32 @@
 <resources>
     <string name="app_name">Re-Chances</string>
+
+    <string-array name="title">
+        <item> Kimono Bekas</item>
+        <item> Buku Preloved</item>
+        <item> Lampu Tidur</item>
+        <item> Tanaman Hias</item>
+        <item> Kamera Canon</item>
+        <item> Lightstick</item>
+        <item> Kulkas</item>
+        <item> Kursi Mini</item>
+        <item> Jam Dinding</item>
+        <item> Kipas</item>
+    </string-array>
+
+    <string-array name="status">
+        <item> Gratis Ongkir</item>
+        <item> Ambil Ke Tempat</item>
+    </string-array>
+
+    <string-array name="tags">
+        <item> smsms</item>
+    </string-array>
+
+    <string-array name="image">
+        <item>mmam</item>
+    </string-array>
+
     <string name="re_chances">Re-Chances</string>
     <string name="headline">Lorem ipsum dolor sit amet, consectetur adipiscing.</string>
     <string name="skip">Skip</string>
