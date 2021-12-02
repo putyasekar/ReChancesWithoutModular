@@ -30,7 +30,7 @@ class DetailActivity : AppCompatActivity() {
 
         product_title.text = product?.title
         product_price.text = product?.price
-        detail_product.text = product?.desc
+        detail_product.text = product?.description
         Glide.with(this).load(product?.image).apply(RequestOptions().override(600))
             .into(image_detail_product)
 
