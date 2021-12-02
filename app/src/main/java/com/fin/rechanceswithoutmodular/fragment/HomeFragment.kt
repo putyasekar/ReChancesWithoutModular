@@ -9,6 +9,7 @@ import android.view.ViewGroup
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.fin.rechanceswithoutmodular.R
 import com.fin.rechanceswithoutmodular.activity.DetailActivity
+import com.fin.rechanceswithoutmodular.activity.MoreProductActivity
 import com.fin.rechanceswithoutmodular.adapter.ProductAdapter
 import com.fin.rechanceswithoutmodular.model.ContentModel
 import kotlinx.android.synthetic.main.fragment_home.*
@@ -33,12 +34,12 @@ class HomeFragment : Fragment() {
         return inflater.inflate(R.layout.fragment_home, container, false)
     }
 
-//    private fun showSelected() {
-//        view_all_1.setOnClickListener {
-//            val intent = Intent(context, MoreProductActivity::class.java)
-//            startActivity(intent)
-//        }
-//    }
+    private fun showSelected() {
+        view_all_1.setOnClickListener {
+            val intent = Intent(context, MoreProductActivity::class.java)
+            startActivity(intent)
+        }
+    }
 
     private fun showRecyclerList() {
         productAdapter = ProductAdapter { showDetail(it) }
