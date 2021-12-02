@@ -62,17 +62,17 @@ class HomeFragment : Fragment() {
         val dataTags = resources.getStringArray(R.array.tags)
         val dataImage = resources.obtainTypedArray(R.array.image)
 
-        val listHotel = ArrayList<ContentModel>()
+        val lisProduct = ArrayList<ContentModel>()
 
         for (position in dataTitle.indices) {
-            val hotel = ContentModel(
+            val product = ContentModel(
                 dataTitle[position],
                 dataStatus[position],
                 dataTags[position],
                 dataImage.getResourceId(position, -1)
             )
-            listHotel.add(hotel)
+            listProduct.add(product)
         }
-        return listHotel
+        return listProduct
     }
 }
