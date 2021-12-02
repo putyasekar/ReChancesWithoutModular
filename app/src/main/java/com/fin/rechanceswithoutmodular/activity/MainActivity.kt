@@ -59,6 +59,5 @@ class MainActivity : AppCompatActivity() {
 
         addFragment(defaultMainView)
 
-
     }
 }
