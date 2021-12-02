@@ -54,7 +54,8 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        chip_nav.setOnNavigationItemSelectedListener(onNavigationItemSelectedListener)
+        //WAIT!!!
+//        chip_nav.setOnNavigationItemSelectedListener(onNavigationItemSelectedListener)
 
         addFragment(defaultMainView)
 
