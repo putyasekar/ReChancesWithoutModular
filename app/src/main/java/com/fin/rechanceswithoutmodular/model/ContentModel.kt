@@ -9,6 +9,6 @@ data class ContentModel(
     var status_delivery: String,
     var tags: String,
     var price: String,
-    var desc: String,
+    var description: String,
     var image: Int
 ) : Parcelable

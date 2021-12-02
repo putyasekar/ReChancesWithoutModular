@@ -30,7 +30,6 @@ class HomeFragment : Fragment() {
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
-        // Inflate the layout for this fragment
         return inflater.inflate(R.layout.fragment_home, container, false)
     }
 
@@ -60,7 +59,7 @@ class HomeFragment : Fragment() {
         val dataTitle = resources.getStringArray(R.array.title)
         val dataStatus = resources.getStringArray(R.array.status)
         val dataTags = resources.getStringArray(R.array.tags)
-        val dataDesc = resources.getStringArray(R.array.desc)
+        val dataDescription = resources.getStringArray(R.array.description)
         val dataImage = resources.obtainTypedArray(R.array.image)
 
         val listProduct = ArrayList<ContentModel>()
@@ -70,7 +69,7 @@ class HomeFragment : Fragment() {
                 dataTitle[position],
                 dataStatus[position],
                 dataTags[position],
-                dataDesc[position],
+                dataDescription[position],
                 dataImage.getResourceId(position, -1)
             )
 

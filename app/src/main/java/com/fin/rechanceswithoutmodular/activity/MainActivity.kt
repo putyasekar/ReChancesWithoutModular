@@ -2,64 +2,41 @@ package com.fin.rechanceswithoutmodular.activity
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.os.PersistableBundle
+import android.view.View
 import android.widget.AdapterView
 import androidx.fragment.app.Fragment
 import com.fin.rechanceswithoutmodular.R
+import com.fin.rechanceswithoutmodular.adapter.ViewPagerAdapter
 import com.fin.rechanceswithoutmodular.fragment.*
 import com.google.android.material.bottomnavigation.BottomNavigationView
 import com.ismaeldivita.chipnavigation.ChipNavigationBar
 import kotlinx.android.synthetic.main.activity_main.*
 
 class MainActivity : AppCompatActivity() {
-
-    private val setOnItemSelectedListener =
-        ChipNavigationBar.OnItemSelectedListener setOnItemSelectedListener@{ id ->
-            when (id) {
-                R.id.home_page -> {
-                    val homeFragment = HomeFragment()
-                    addFragment(homeFragment)
-                    return@ true
-                }
-                R.id.list_item_page -> {
-                    val bookingFragment = ListItemFragment()
-                    addFragment(bookingFragment)
-                    return@setOnItemSelectedListener true
-                }
-                R.id.post_page -> {
-                    val inboxFragment = PostFragment()
-                    addFragment(inboxFragment)
-                    return@setOnItemSelectedListener true
-                }
-                R.id.chat_page -> {
-                    val historyFragment = ChatFragment()
-                    addFragment(historyFragment)
-                    return@setOnItemSelectedListener true
-                }
-                R.id.profile_page -> {
-                    val profileFragment = ProfileFragment()
-                    addFragment(profileFragment)
-                    return@setOnItemSelectedListener true
-                }
-            }
-            false
-        }
-
-    private fun addFragment(fragment: Fragment) {
-        supportFragmentManager.beginTransaction()
-            .replace(R.id.main_container, fragment, fragment::class.java.simpleName)
-            .addToBackStack(null).commit()
-    }
-
-    val defaultMainView = HomeFragment.defaultFragment()
-
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        //WAIT!!!
-        chip_nav.setOnItemSelectedListener(ChipNavigationBar.OnItemSelectedListener)
+        chip_nav.setOnItemSelectedListener { id ->
+            when (id) {
+                R.id.home_page -> view_pager_home.currentItem = 0
+                R.id.list_item_page -> view_pager_home.currentItem = 1
+                R.id.post_page -> view_pager_home.currentItem = 2
+                R.id.chat_page -> view_pager_home.currentItem = 3
+                R.id.profile_page -> view_pager_home.currentItem = 4
+            }
+        }
 
-        addFragment(defaultMainView)
-
+        view_pager_home.setOnTouchListener(View.OnTouchListener { p, event -> true })
+        view_pager_home.adapter = ViewPagerAdapter(supportFragmentManager).apply {
+            list = ArrayList<String>().apply {
+                add("Home")
+                add("Lists")
+                add("Post")
+                add("Chat")
+                add("Profile")
+            }
+        }
     }
 }
