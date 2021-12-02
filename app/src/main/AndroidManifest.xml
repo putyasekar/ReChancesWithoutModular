@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    package="com.putya.rechanceswithoutmodular">
+    package="com.fin.rechanceswithoutmodular">
 
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission
@@ -21,16 +21,16 @@
         android:theme="@style/Theme.ReChancesWithoutModular"
         android:usesCleartextTraffic="true">
         <activity
-            android:name=".intro.IntroSliderActivity"
+            android:name="com.fin.rechanceswithoutmodular.intro.IntroSliderActivity"
             android:exported="false" />
         <activity
-            android:name=".activity.MainActivity"
+            android:name="com.fin.rechanceswithoutmodular.activity.MainActivity"
             android:exported="true" />
         <activity
-            android:name=".activity.PostFeedActivity"
+            android:name="com.fin.rechanceswithoutmodular.activity.PostFeedActivity"
             android:exported="false" />
         <activity
-            android:name=".activity.ProfileActivity"
+            android:name="com.fin.rechanceswithoutmodular.activity.ProfileActivity"
             android:exported="false" /> <!-- <activity -->
         <!-- android:name=".activity.ChatActivity" -->
         <!-- android:exported="false" /> -->
@@ -38,22 +38,22 @@
             android:name=".activity.HomeActivity"
             android:exported="false" />
         <activity
-            android:name=".authentication.SignInActivity"
+            android:name="com.fin.rechanceswithoutmodular.authentication.SignInActivity"
             android:exported="false" />
         <activity
-            android:name=".intro.OnBoarding4"
+            android:name="com.fin.rechanceswithoutmodular.intro.OnBoarding4"
             android:exported="true" />
         <activity
-            android:name=".intro.OnBoarding3"
+            android:name="com.fin.rechanceswithoutmodular.intro.OnBoarding3"
             android:exported="true" />
         <activity
-            android:name=".intro.OnBoarding2"
+            android:name="com.fin.rechanceswithoutmodular.intro.OnBoarding2"
             android:exported="true" />
         <activity
-            android:name=".intro.OnBoarding1"
+            android:name="com.fin.rechanceswithoutmodular.intro.OnBoarding1"
             android:exported="true" />
         <activity
-            android:name=".intro.SplashScreen"
+            android:name="com.fin.rechanceswithoutmodular.intro.SplashScreen"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -67,7 +67,7 @@
         <!-- android:name="com.google.android.geo.API_KEY" -->
         <!-- android:value="@string/google_maps_key" /> -->
         <service
-            android:name=".utils.GetAddressIntentService"
+            android:name="com.fin.rechanceswithoutmodular.utils.GetAddressIntentService"
             android:exported="false"
             tools:ignore="Instantiatable" />
     </application>
