@@ -4,16 +4,18 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/white"
     tools:context=".intro.OnBoarding4">
 
     <TextView
         android:id="@+id/back_3"
-        android:layout_width="117dp"
-        android:layout_height="39dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
-        android:layout_marginTop="23dp"
+        android:layout_marginTop="16dp"
         android:fontFamily="@font/poppins_semibold"
         android:text="@string/back"
+        android:textColor="@color/black"
         android:textSize="20sp"
         android:textStyle="bold"
         app:layout_constraintStart_toStartOf="parent"
@@ -75,11 +77,10 @@
         android:id="@+id/button_next_4"
         android:layout_width="105dp"
         android:layout_height="105dp"
-        android:layout_marginEnd="152dp"
-        android:layout_marginBottom="16dp"
         android:background="@drawable/pb4"
         android:text="@string/_15sp"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -3,6 +3,7 @@
     android:id="@+id/rv_item"
     android:layout_width="82dp"
     android:layout_height="125dp"
+    android:layout_gravity="center"
     android:layout_marginLeft="10dp"
     android:layout_marginTop="20dp"
     android:layout_marginRight="10dp"
@@ -12,9 +13,10 @@
 
     <ImageView
         android:id="@+id/display_filter"
-        android:layout_width="70dp"
+        android:layout_width="wrap_content"
         android:layout_height="70dp"
         android:layout_gravity="center"
+        android:scaleType="fitCenter"
         android:src="@drawable/dummy_display_plant" />
 
     <TextView

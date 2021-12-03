@@ -5,6 +5,7 @@
     android:id="@+id/rv_container_sign_up"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/white"
     tools:context=".authentication.SignUpActivity">
 
     <ImageView
@@ -32,27 +33,11 @@
         android:textColor="#000"
         android:textSize="33sp" />
 
-    <TextView
-        android:id="@+id/full_name_title"
-        android:layout_width="0dp"
-        android:layout_height="0dp"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentTop="true"
-        android:layout_alignParentEnd="true"
-        android:layout_alignParentBottom="true"
-        android:layout_marginStart="31dp"
-        android:layout_marginTop="177dp"
-        android:fontFamily="@font/poppins_regular"
-        android:text="@string/full_name"
-        android:textColor="#9796A1"
-        android:textSize="17sp" />
-
     <LinearLayout
         android:id="@+id/full_name_part"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_below="@id/full_name_title"
-        android:layout_marginTop="-540dp"
+        android:layout_below="@id/sign_up"
         android:orientation="vertical"
         android:padding="@dimen/_16dp">
 
@@ -83,29 +68,12 @@
 
     </LinearLayout>
 
-    <TextView
-        android:id="@+id/email_title"
-        android:layout_width="0dp"
-        android:layout_height="0dp"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentTop="true"
-        android:layout_alignParentEnd="true"
-        android:layout_alignParentBottom="true"
-        android:layout_marginStart="31dp"
-        android:layout_marginTop="302dp"
-        android:layout_marginEnd="-1dp"
-        android:layout_marginBottom="-125dp"
-        android:fontFamily="@font/poppins_regular"
-        android:text="@string/email"
-        android:textColor="#9796A1"
-        android:textSize="17sp" />
 
     <LinearLayout
         android:id="@+id/email_part"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_below="@id/email_title"
-        android:layout_marginTop="-418dp"
+        android:layout_below="@id/full_name_part"
         android:orientation="vertical"
         android:padding="@dimen/_16dp">
 
@@ -136,29 +104,12 @@
 
     </LinearLayout>
 
-    <TextView
-        android:id="@+id/password_title"
-        android:layout_width="0dp"
-        android:layout_height="0dp"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentTop="true"
-        android:layout_alignParentEnd="true"
-        android:layout_alignParentBottom="true"
-        android:layout_marginStart="31dp"
-        android:layout_marginTop="420dp"
-        android:layout_marginEnd="-1dp"
-        android:layout_marginBottom="-243dp"
-        android:fontFamily="@font/poppins_regular"
-        android:text="@string/password"
-        android:textColor="#9796A1"
-        android:textSize="17sp" />
 
     <LinearLayout
         android:id="@+id/password_part"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_below="@id/email_title"
-        android:layout_marginTop="-302dp"
+        android:layout_below="@id/email_part"
         android:orientation="vertical"
         android:padding="@dimen/_16dp">
 
@@ -195,16 +146,11 @@
         android:layout_width="wrap_content"
         android:layout_height="64dp"
         android:layout_below="@id/password_part"
-        android:layout_alignStart="@+id/email_title"
+        android:layout_alignParentStart="true"
         android:layout_alignParentEnd="true"
-        android:layout_alignParentBottom="true"
         android:layout_gravity="center"
-        android:layout_marginStart="22dp"
-        android:layout_marginLeft="5dp"
+        android:layout_marginHorizontal="25dp"
         android:layout_marginTop="31dp"
-        android:layout_marginEnd="59dp"
-        android:layout_marginRight="5dp"
-        android:layout_marginBottom="96dp"
         android:fontFamily="@font/poppins_semibold"
         android:text="@string/sign_up"
         android:textAllCaps="true"
@@ -217,7 +163,7 @@
         android:id="@+id/sign_in_TV"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_alignParentBottom="true"
+        android:layout_below="@id/sign_up_button"
         android:layout_marginBottom="34dp"
         android:fontFamily="@font/poppins_regular"
         android:gravity="center"
