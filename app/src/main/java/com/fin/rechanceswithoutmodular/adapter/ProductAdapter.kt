@@ -8,47 +8,51 @@ import androidx.recyclerview.widget.RecyclerView
 import com.bumptech.glide.Glide
 import com.bumptech.glide.request.RequestOptions
 import com.fin.rechanceswithoutmodular.R
+import com.fin.rechanceswithoutmodular.databinding.RowBasedOnInterestBinding
+import com.fin.rechanceswithoutmodular.databinding.RowCategoriesHomeBinding
 import com.fin.rechanceswithoutmodular.model.ContentModel
+import com.fin.rechanceswithoutmodular.model.StaticRvList
 import kotlinx.android.synthetic.main.row_based_on_interest.view.*
 
-class ProductAdapter(private val listener: (ContentModel) -> Unit) :
-    RecyclerView.Adapter<ProductAdapter.ViewHolder>() {
+class ProductAdapter(
+    private val items: ArrayList<ContentModel>
+) : RecyclerView.Adapter<ProductAdapter.ContentModelViewHolder>() {
 
-    private val listProduct = ArrayList<ContentModel>()
+    private lateinit var onItemClickCallback: OnItemClickCallback
 
-    @SuppressLint("NotifyDataSetChanged")
-    fun setData(items: ArrayList<ContentModel>) {
-        listProduct.clear()
-        listProduct.addAll(items)
-        notifyDataSetChanged()
+    fun setOnItemClickCallback(onItemClickCallback: OnItemClickCallback) {
+        this.onItemClickCallback = onItemClickCallback
     }
 
-    override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): ViewHolder {
-        val view = LayoutInflater.from(parent.context)
-            .inflate(R.layout.row_based_on_interest, parent, false)
-        return ViewHolder(view)
+    override fun onCreateViewHolder(
+        parent: ViewGroup,
+        viewType: Int
+    ): ContentModelViewHolder {
+        return ContentModelViewHolder(
+            RowBasedOnInterestBinding.inflate(
+                LayoutInflater.from(parent.context),
+                parent,
+                false
+            )
+        )
     }
 
-    override fun getItemCount(): Int = listProduct.size
-
-    override fun onBindViewHolder(holder: ViewHolder, position: Int) {
-        holder.bind(listProduct[position], listener)
-    }
-
-    class ViewHolder(itemView: View) : RecyclerView.ViewHolder(itemView) {
-        fun bind(content: ContentModel, listener: (ContentModel) -> Unit) {
-            with(itemView) {
-                Glide.with(itemView.context)
-                    .load(content.image)
-                    .apply(RequestOptions())
-                    .override(300)
-                    .into(iv_product)
-
-                tv_title.text = content.title
-                delivery_status.text = content.status_delivery
-
-                itemView.setOnClickListener { listener(content) }
-            }
+    override fun onBindViewHolder(holder: ContentModelViewHolder, position: Int) {
+        val currentItem = items[position]
+        holder.binding.apply {
+            this.tvTitle.text = currentItem.title
+            this.ivProduct.setImageResource(currentItem.image)
         }
+        holder.itemView.setOnClickListener { onItemClickCallback.onItemClicked(currentItem.title) }
+    }
+
+
+    inner class ContentModelViewHolder(val binding: RowBasedOnInterestBinding) :
+        RecyclerView.ViewHolder(binding.root)
+
+    override fun getItemCount(): Int = items.size
+
+    interface OnItemClickCallback {
+        fun onItemClicked(url:String)
     }
 }

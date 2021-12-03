@@ -1,31 +1,27 @@
 package com.fin.rechanceswithoutmodular.intro
 
-import androidx.appcompat.app.AppCompatActivity
+import android.content.Intent
 import android.os.Bundle
-import com.fin.rechanceswithoutmodular.R
+import androidx.appcompat.app.AppCompatActivity
+import com.fin.rechanceswithoutmodular.authentication.SignInActivity
+import com.fin.rechanceswithoutmodular.databinding.ActivityOnBoarding1Binding
 
 class OnBoarding1 : AppCompatActivity() {
-//    var btnNext: Button? = null
-//    var btnSkip: TextView? = null
+    private lateinit var binding: ActivityOnBoarding1Binding
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_on_boarding1)
+        binding = ActivityOnBoarding1Binding.inflate(layoutInflater)
+        setContentView(binding.root)
 
-//        window.setFlags(
-//            WindowManager.LayoutParams.FLAG_FULLSCREEN,
-//            WindowManager.LayoutParams.FLAG_FULLSCREEN
-//        )
+        binding.buttonNext.setOnClickListener {
+            val intent = Intent(this, OnBoarding2::class.java)
+            startActivity(intent)
+        }
 
-//        btnNext = findViewById(R.id.button_next)
-//        btnSkip = findViewById(R.id.skipText)
-//
-//        btnNext?.setOnClickListener {
-//            startActivity(Intent(this@OnBoarding1, OnBoarding2::class.java))
-//        }
-//
-//        btnSkip?.setOnClickListener {
-//            startActivity(Intent(this@OnBoarding1, SignInActivity::class.java))
-//        }
+        binding.skipText.setOnClickListener {
+            val intent = Intent(this, SignInActivity::class.java)
+            startActivity(intent)
+        }
     }
 }

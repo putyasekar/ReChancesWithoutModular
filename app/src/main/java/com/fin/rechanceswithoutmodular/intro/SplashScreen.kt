@@ -1,11 +1,10 @@
 package com.fin.rechanceswithoutmodular.intro
 
 import android.content.Intent
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.WindowManager
+import androidx.appcompat.app.AppCompatActivity
 import com.fin.rechanceswithoutmodular.R
-import com.fin.rechanceswithoutmodular.fragment.HomeFragment
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.delay
@@ -25,7 +24,7 @@ class SplashScreen : AppCompatActivity() {
 
         CoroutineScope(Dispatchers.Main).launch {
             delay(5000L)
-            startActivity(Intent(this@SplashScreen, HomeFragment::class.java))
+            startActivity(Intent(this@SplashScreen, OnBoarding1::class.java))
             finish()
         }
     }

@@ -4,11 +4,13 @@ import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
 import com.fin.rechanceswithoutmodular.databinding.RowCategoriesHomeBinding
+import com.fin.rechanceswithoutmodular.databinding.RowListItemsToOfferBinding
+import com.fin.rechanceswithoutmodular.model.ItemToOffer
 import com.fin.rechanceswithoutmodular.model.StaticRvList
 
-class StaticRv(
-    private val items: ArrayList<StaticRvList>
-) : RecyclerView.Adapter<StaticRv.StaticRVViewHolder>() {
+class ItemOffersAdapter(
+    private val items: ArrayList<ItemToOffer>
+) : RecyclerView.Adapter<ItemOffersAdapter.ItemOfferViewHolder>() {
 
     private lateinit var onItemClickCallback: OnItemClickCallback
 
@@ -19,9 +21,9 @@ class StaticRv(
     override fun onCreateViewHolder(
         parent: ViewGroup,
         viewType: Int
-    ): StaticRVViewHolder {
-        return StaticRVViewHolder(
-            RowCategoriesHomeBinding.inflate(
+    ): ItemOfferViewHolder{
+        return ItemOfferViewHolder(
+            RowListItemsToOfferBinding.inflate(
                 LayoutInflater.from(parent.context),
                 parent,
                 false
@@ -29,17 +31,19 @@ class StaticRv(
         )
     }
 
-    override fun onBindViewHolder(holder: StaticRVViewHolder, position: Int) {
+    override fun onBindViewHolder(holder: ItemOfferViewHolder, position: Int) {
         val currentItem = items[position]
         holder.binding.apply {
-            this.titleFilter.text = currentItem.text
-            this.displayFilter.setImageResource(currentItem.display)
+            this.totalItem.text = currentItem.totalItem
+            this.conditionType2.text = currentItem.condition
+            this.TypeOfPorterage2.text = currentItem.type
+            this.displayPictItem .setImageResource(currentItem.displayImage)
         }
-        holder.itemView.setOnClickListener { onItemClickCallback.onItemClicked(currentItem.text) }
+        holder.itemView.setOnClickListener { onItemClickCallback.onItemClicked(currentItem.totalItem) }
     }
 
 
-    inner class StaticRVViewHolder(val binding: RowCategoriesHomeBinding) :
+    inner class ItemOfferViewHolder(val binding: RowListItemsToOfferBinding) :
         RecyclerView.ViewHolder(binding.root)
 
     override fun getItemCount(): Int = items.size
