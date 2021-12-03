@@ -1,44 +1,54 @@
 package com.fin.rechanceswithoutmodular.activity
 
-import android.annotation.SuppressLint
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.os.PersistableBundle
-import android.view.View
-import android.widget.AdapterView
+import androidx.appcompat.app.AppCompatActivity
 import androidx.fragment.app.Fragment
 import com.fin.rechanceswithoutmodular.R
-import com.fin.rechanceswithoutmodular.adapter.ViewPagerAdapter
+import com.fin.rechanceswithoutmodular.databinding.ActivityMainBinding
 import com.fin.rechanceswithoutmodular.fragment.*
-import com.google.android.material.bottomnavigation.BottomNavigationView
 import com.ismaeldivita.chipnavigation.ChipNavigationBar
-import kotlinx.android.synthetic.main.activity_main.*
 
 class MainActivity : AppCompatActivity() {
-    @SuppressLint("ClickableViewAccessibility")
+
+    private lateinit var binding: ActivityMainBinding
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_main)
+        binding = ActivityMainBinding.inflate(layoutInflater)
+        setContentView(binding.root)
 
-        chip_nav.setOnItemSelectedListener { id ->
+        val mMainNav: ChipNavigationBar = binding.chipNav
+
+        if (savedInstanceState == null) {
+            mMainNav.setItemSelected(R.id.home_page, true)
+            replaceFragment(HomeFragment())
+        }
+
+        mMainNav.setOnItemSelectedListener { id: Int ->
             when (id) {
-                R.id.home_page -> view_pager_home.currentItem = 0
-                R.id.list_item_page -> view_pager_home.currentItem = 1
-                R.id.post_page -> view_pager_home.currentItem = 2
-                R.id.chat_page -> view_pager_home.currentItem = 3
-                R.id.profile_page -> view_pager_home.currentItem = 4
+                R.id.home_page -> replaceFragment(HomeFragment())
+                R.id.list_item_page -> replaceFragment(ListItemFragment())
+                R.id.post_page -> replaceFragment(PostFragment())
+                R.id.chat_page -> replaceFragment(ChatFragment())
+                R.id.profile_page -> replaceFragment(ProfileFragment())
             }
         }
+    }
 
-        view_pager_home.setOnTouchListener(View.OnTouchListener { p, event -> true })
-        view_pager_home.adapter = ViewPagerAdapter(supportFragmentManager).apply {
-            list = ArrayList<String>().apply {
-                add("Home")
-                add("Lists")
-                add("Post")
-                add("Chat")
-                add("Profile")
-            }
+    private fun replaceFragment(fragment: Fragment) {
+        var fragment = fragment
+        val tag = fragment.javaClass.simpleName
+        val tr = supportFragmentManager.beginTransaction()
+        val curFrag = supportFragmentManager.primaryNavigationFragment
+        val cacheFrag = supportFragmentManager.findFragmentByTag(tag)
+        if (curFrag != null) tr.hide(curFrag)
+        if (cacheFrag == null) {
+            tr.add(R.id.view_pager_home, fragment, tag)
+        } else {
+            tr.show(cacheFrag)
+            fragment = cacheFrag
         }
+        tr.setPrimaryNavigationFragment(fragment)
+        tr.commit()
     }
 }
