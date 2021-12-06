@@ -8,19 +8,18 @@ object ListChatDummy {
 
         fun getListData(): ArrayList<ChatUser> {
             val list: ArrayList<ChatUser> = arrayListOf(
-                ChatUser("Zeekands", R.drawable.pp_chat, "12/12/12"),
-                ChatUser("Daye Gamon", R.drawable.pp_chat, "12/12/12"),
-                ChatUser("NaiNai", R.drawable.pp_chat, "12/12/12"),
-                ChatUser("Dira Hantu", R.drawable.pp_chat, "12/12/12"),ChatUser("Zeekands", R.drawable.pp_chat, "12/12/12"),
-                ChatUser("Daye Gamon", R.drawable.pp_chat, "12/12/12"),
-                ChatUser("NaiNai", R.drawable.pp_chat, "12/12/12"),
-                ChatUser("Dira Hantu", R.drawable.pp_chat, "12/12/12"),ChatUser("Zeekands", R.drawable.pp_chat, "12/12/12"),
-                ChatUser("Daye Gamon", R.drawable.pp_chat, "12/12/12"),
-                ChatUser("NaiNai", R.drawable.pp_chat, "12/12/12"),
-                ChatUser("Dira Hantu", R.drawable.pp_chat, "12/12/12"),ChatUser("Zeekands", R.drawable.pp_chat, "12/12/12"),
-                ChatUser("Daye Gamon", R.drawable.pp_chat, "12/12/12"),
-                ChatUser("NaiNai", R.drawable.pp_chat, "12/12/12"),
-                ChatUser("Dira Hantu", R.drawable.pp_chat, "12/12/12"),
+                ChatUser("Zakia", R.drawable.pp_chat, "12/12/12"),
+                ChatUser("Putya", R.drawable.pp_chat, "12/12/12"),
+                ChatUser("Zakia bogor", R.drawable.pp_chat, "12/12/12"),
+                ChatUser("Zakia sana sini", R.drawable.pp_chat, "12/12/12"),ChatUser("Zakia", R.drawable.pp_chat, "12/12/12"),
+                ChatUser("Putya batam", R.drawable.pp_chat, "12/12/12"),
+                ChatUser("putya itu", R.drawable.pp_chat, "12/12/12"),
+                ChatUser("putya yang sana", R.drawable.pp_chat, "12/12/12"),ChatUser("Zakia", R.drawable.pp_chat, "12/12/12"),
+                ChatUser("Zakia bogor", R.drawable.pp_chat, "12/12/12"),
+                ChatUser("Zakia sana sini", R.drawable.pp_chat, "12/12/12"),ChatUser("Zakia", R.drawable.pp_chat, "12/12/12"),
+                ChatUser("Putya batam", R.drawable.pp_chat, "12/12/12"),
+                ChatUser("putya itu", R.drawable.pp_chat, "12/12/12"),
+                ChatUser("putya yang sana", R.drawable.pp_chat, "12/12/12"),ChatUser("Zakia", R.drawable.pp_chat, "12/12/12"),
             )
             return list
 

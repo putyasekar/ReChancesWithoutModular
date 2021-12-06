@@ -55,7 +55,7 @@
         <androidx.cardview.widget.CardView
             android:layout_width="336dp"
             android:layout_height="254dp"
-            android:layout_marginBottom="156dp"
+            android:layout_marginBottom="175dp"
             android:orientation="vertical"
             app:cardCornerRadius="30dp"
             app:layout_constraintBottom_toBottomOf="parent"
@@ -175,7 +175,7 @@
             android:layout_width="141dp"
             android:layout_height="64dp"
             android:layout_gravity="center"
-            android:layout_marginBottom="40dp"
+            android:layout_marginBottom="50dp"
             android:fontFamily="@font/poppins_regular"
             android:text="@string/log_out"
             android:textColor="@color/white"
